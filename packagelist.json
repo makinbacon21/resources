@@ -14,10 +14,6 @@
                     "description": "Tablet Android as you know it",
                     "icon": "https://github.com/makinbacon21/resources/blob/main/icons/LineageLogo.png?raw=true",
                     "url": "https://download.switchroot.org/android/android-128gb.img.gz",
-                    "extract_size": 118111539712,
-                    "extract_sha256": "63c02149407e31c0620c3a0a2079f57e7d2d6855",
-                    "image_download_size": 644038843,
-                    "release_date": "2020-03-03"
                 }
             ]
         },
