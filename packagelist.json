@@ -13,7 +13,7 @@
                     "name": "LineageOS 8.1 Mobile (128 GB)",
                     "description": "Tablet Android as you know it",
                     "icon": "https://github.com/makinbacon21/resources/blob/main/icons/LineageLogo.png?raw=true",
-                    "url": "https://download.switchroot.org/android/android-128gb.img.gz",
+                    "url": "https://download.switchroot.org/android/android-128gb.img.gz"
                 }
             ]
         },
