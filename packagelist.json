@@ -7,33 +7,23 @@
         {
             "name": "LineageOS",
             "description": "Open-source Android, compiled for the Switch",
-            "icon": "icons/LineageLogo.png",
+            "icon": "https://github.com/makinbacon21/resources/blob/main/icons/LineageLogo.png?raw=true",
             "subitems": [
                 {
-                    "name": "LineageOS 17.1 Mobile (icosa)",
+                    "name": "LineageOS 8.1 Mobile (128 GB)",
                     "description": "Tablet Android as you know it",
-                    "icon": "https://downloads.raspberrypi.org/raspios_lite_armhf/Raspberry_Pi_OS_Lite_(32-bit).png",
-                    "url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-01-12/2021-01-11-raspios-buster-armhf-lite.zip",
-                    "extract_size": 1862270976,
-                    "extract_sha256": "906ec68b20d24d079686ddfb7c08f9c8c6204f516e15539d79131df86056eabf",
-                    "image_download_size": 459635953,
-                    "release_date": "2021-01-11"
-                },
-                {
-                    "name": "LineageOS 17.1 TV (foster)",
-                    "description": "A port of Debian with desktop and recommended applications",
-                    "icon": "https://downloads.raspberrypi.org/raspios_full_armhf/Raspberry_Pi_OS_Full_(32-bit).png",
-                    "url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2021-01-12/2021-01-11-raspios-buster-armhf-full.zip",
-                    "extract_size": 8602517504,
-                    "extract_sha256": "5d08b9d06fac017cef605461604b395fe50696e3a32d380952317bd86d37ccb0",
-                    "image_download_size": 3002523031,
-                    "release_date": "2021-01-11"
+                    "icon": "https://github.com/makinbacon21/resources/blob/main/icons/LineageLogo.png?raw=true",
+                    "url": "https://download.switchroot.org/android/android-128gb.img.gz",
+                    "extract_size": 118111539712,
+                    "extract_sha256": "63c02149407e31c0620c3a0a2079f57e7d2d6855",
+                    "image_download_size": 644038843,
+                    "release_date": "2020-03-03"
                 }
             ]
         },
         {
-            "name": "Other general purpose OS",
-            "description": "Other general purpose Operating Systems",
+            "name": "Linux",
+            "description": "Precompiled L4T images",
             "icon": "icons/cat_other_general_purpose_operating_systems.png",
             "subitems": [
                 {
