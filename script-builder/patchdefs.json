@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "version": "lineage-17.1"
+    },
+    "repopicks": [
+        {
+            "name": "icosa-bt-lineage-17.1",
+            "isNamed": "y"
+        },
+        {
+            "name": "nvidia-shieldtech-q",
+            "isNamed": "y"
+        },
+        {
+            "name": "nvidia-beyonder-q",
+            "isNamed": "y"
+        },
+        {
+            "name": "300860",
+            "isNamed": "n"
+        },
+        {
+            "name": "287339",
+            "isNamed": "n"
+        },
+        {
+            "name": "302339",
+            "isNamed": "n"
+        },
+        {
+            "name": "302554",
+            "isNamed": "n"
+        },
+        {
+            "name": "284553",
+            "isNamed": "n"
+        }
+    ],
+    "patches": [
+        {
+            "path": "bionic",
+            "patch": ".repo/local_manifests/patches/bionic_intrinsics.patch"
+        },
+        {
+            "path": "device/nvidia/foster_tab",
+            "patch": ".repo/local_manifests/patches/device_nvidia_foster_tab-beyonder.patch"
+        },
+        {
+            "path": "frameworks/native",
+            "patch": ".repo/local_manifests/patches/frameworks_native-mouse.patch"
+        },
+        {
+            "path": "frameworks/base",
+            "patch": ".repo/local_manifests/patches/frameworks_base-desktop-dock.patch"
+        },
+        {
+            "path": "system/core",
+            "patch": ".repo/local_manifests/patches/system_core-gatekeeper-hack.patch"
+        },
+        {
+            "path": "device/lineage/atv",
+            "patch": ".repo/local_manifests/patches/device_lineage_atv-res.patch"
+        },
+        {
+            "path": "hardware/nintendo/joycond",
+            "patch": ".repo/local_manifests/patches/device_lineage_atv-res.patch"
+        },
+        {
+            "path": "device/lineage/atv",
+            "patch": ".repo/local_manifests/patches/device_lineage_atv-res.patch"
+        },
+        {
+            "path": "device/lineage/atv",
+            "patch": ".repo/local_manifests/patches/device_lineage_atv-res.patch"
+        }
+    ]
+}
