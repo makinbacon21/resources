@@ -63,15 +63,15 @@
         },
         {
             "path": "hardware/nintendo/joycond",
-            "patch": "https://github.com/makinbacon21/resources/raw/main/script-builder/patches/joycond10.patch"
+            "patch": "https://raw.githubusercontent.com/makinbacon21/resources/main/script-builder/patches/joycond10.patch"
         },
         {
             "path": "kernel/nvidia/linux-4.9/kernel/kernel-4.9",
-            "patch": "https://github.com/makinbacon21/resources/raw/main/script-builder/patches/oc-android10.patch"
+            "patch": "https://raw.githubusercontent.com/makinbacon21/resources/main/script-builder/patches/oc-android10.patch"
         },
         {
             "path": "device/nvidia/foster",
-            "patch": "https://github.com/makinbacon21/resources/raw/main/script-builder/patches/oc_profiles.patch"
+            "patch": "https://raw.githubusercontent.com/makinbacon21/resources/main/script-builder/patches/oc_profiles.patch"
         }
     ]
 }
