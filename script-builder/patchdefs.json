@@ -62,7 +62,33 @@
             "patch": ".repo/local_manifests/patches/device_lineage_atv-res.patch"
         }
     ],
-    "optional-patches": [{
+    "patches": [{
+        "REQUIRED": [
+            {
+                "path": "bionic",
+                "patch": ".repo/local_manifests/patches/bionic_intrinsics.patch"
+            },
+            {
+                "path": "device/nvidia/foster_tab",
+                "patch": ".repo/local_manifests/patches/device_nvidia_foster_tab-beyonder.patch"
+            },
+            {
+                "path": "frameworks/native",
+                "patch": ".repo/local_manifests/patches/frameworks_native-mouse.patch"
+            },
+            {
+                "path": "frameworks/base",
+                "patch": ".repo/local_manifests/patches/frameworks_base-desktop-dock.patch"
+            },
+            {
+                "path": "system/core",
+                "patch": ".repo/local_manifests/patches/system_core-gatekeeper-hack.patch"
+            },
+            {
+                "path": "device/lineage/atv",
+                "patch": ".repo/local_manifests/patches/device_lineage_atv-res.patch"
+            }
+        ],
         "JOYCON": [
             {
                 "path": "hardware/nintendo/joycond",
