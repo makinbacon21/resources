@@ -39,39 +39,48 @@
     "patches": [
         {
             "path": "bionic",
-            "patch": ".repo/local_manifests/patches/bionic_intrinsics.patch"
+            "patch": ".repo/local_manifests/patches/bionic_intrinsics.patch",
+            "var": ""
         },
         {
             "path": "device/nvidia/foster_tab",
-            "patch": ".repo/local_manifests/patches/device_nvidia_foster_tab-beyonder.patch"
+            "patch": ".repo/local_manifests/patches/device_nvidia_foster_tab-beyonder.patch",
+            "var": ""
         },
         {
             "path": "frameworks/native",
-            "patch": ".repo/local_manifests/patches/frameworks_native-mouse.patch"
+            "patch": ".repo/local_manifests/patches/frameworks_native-mouse.patch",
+            "var": ""
         },
         {
             "path": "frameworks/base",
-            "patch": ".repo/local_manifests/patches/frameworks_base-desktop-dock.patch"
+            "patch": ".repo/local_manifests/patches/frameworks_base-desktop-dock.patch",
+            "var": ""
         },
         {
             "path": "system/core",
-            "patch": ".repo/local_manifests/patches/system_core-gatekeeper-hack.patch"
+            "patch": ".repo/local_manifests/patches/system_core-gatekeeper-hack.patch",
+            "var": ""
         },
         {
             "path": "device/lineage/atv",
-            "patch": ".repo/local_manifests/patches/device_lineage_atv-res.patch"
+            "patch": ".repo/local_manifests/patches/device_lineage_atv-res.patch",
+            "var": ""
         },
         {
             "path": "hardware/nintendo/joycond",
-            "patch": "https://raw.githubusercontent.com/makinbacon21/resources/main/script-builder/patches/joycond10.patch"
+            "patch": "https://raw.githubusercontent.com/makinbacon21/resources/main/script-builder/patches/joycond10.patch",
+            "var": "JCPATCH"
         },
         {
             "path": "kernel/nvidia/linux-4.9/kernel/kernel-4.9",
-            "patch": "https://raw.githubusercontent.com/makinbacon21/resources/main/script-builder/patches/oc-android10.patch"
+            "patch": "https://raw.githubusercontent.com/makinbacon21/resources/main/script-builder/patches/oc-android10.patch",
+            "var": ""
         },
         {
             "path": "device/nvidia/foster",
-            "patch": "https://raw.githubusercontent.com/makinbacon21/resources/main/script-builder/patches/oc_profiles.patch"
+            "patch": "https://raw.githubusercontent.com/makinbacon21/resources/main/script-builder/patches/oc_profiles.patch",
+            "var": ""
         }
     ]
 }
